@@ -58,4 +58,4 @@ To directly cite the code please refer to:
 - Aalborg University for developing the EnergyPLAN software.
 
 
-For any questions or concerns, please visit our Eurac Research website https://www.eurac.edu/it/people/matteo-giacomo-prina.
+For any questions or concerns, please visit our [Eurac Research website](https://www.eurac.edu/it/people/matteo-giacomo-prina).
