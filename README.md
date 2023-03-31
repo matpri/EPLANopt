@@ -45,7 +45,10 @@ It needs to be mention that this example it's just to show the results that it i
 
 ## How to cite EPLANoptMAC ##
 If you use **EPLANoptMAC** for your research, we would appreciate it if you would cite the following papers:
-* Prina MG, Fornaroli FC, Moser D, Manzolini G, Sparber W. Optimization method to obtain marginal abatement cost-curve through EnergyPLAN software. Smart Energy 2021:100002. doi:10.1016/j.segy.2021.100002. https://www.sciencedirect.com/science/article/pii/S2666955221000022?via%3Dihub
+* Prina MG, Cozzini M, Garegnani G, Manzolini G, Moser D, Filippi Oberegger U, et al. Multi- objective optimization algorithm coupled to EnergyPLAN software: The EPLANopt model. Energy 2018;149:213–21. doi:10.1016/j.energy.2018.02.050. https://www.sciencedirect.com/science/article/pii/S0360544218302780
+* Prina MG, Manzolini G, Moser D, Vaccaro R, Sparber W. Multi-Objective Optimization Model EPLANopt for Energy Transition Analysis and Comparison with Climate-Change Scenarios. Energies 2020;13:3255. doi:10.3390/en13123255. https://www.mdpi.com/1996-1073/13/12/3255
+* Prina MG, Moser D, Vaccaro R, Sparber W. EPLANopt optimization model based on EnergyPLAN applied at regional level: the future competition on excess electricity production from renewables. Int J Sustain Energy Plan Manag 2020;27:35–50. doi:10.5278/ijsepm.3504. https://journals.aau.dk/index.php/sepm/article/view/3504
+* Groppi D, Nastasi B, Prina MG, Astiaso Garcia D. The EPLANopt model for Favignana island’s energy transition. Energy Convers Manag 2021;241:114295. doi:10.1016/j.enconman.2021.114295 https://www.sciencedirect.com/science/article/pii/S0196890421004714
 
 To directly cite the code please refer to:
 
