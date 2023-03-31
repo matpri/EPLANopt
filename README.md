@@ -1,4 +1,4 @@
-# EPLANoptMAC #
+# EPLANopt #
 EPLANopt is a powerful energy system optimization model based on the EnergyPLAN software developed by Aalborg University. This model is specifically designed to inspect and identify the best future alternatives for the energy system by considering the challenges of the energy transition. This repository contains the EPLANopt model and its associated files. 
 ![](MAC.gif)
 
