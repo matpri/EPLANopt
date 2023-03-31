@@ -12,18 +12,18 @@ EPLANopt is a powerful energy system optimization model based on the EnergyPLAN 
 - Partnering with Eurac Research for model development and application.
 
 ## Key Components ##
-Future best energy mixes
-Evaluation of costs for current and future energy systems
-Analysis of the structure of the energy system cost
-Hourly energy flows and exchanges analysis
-Must-haves and must-avoids for decarbonization measures
+* Future best energy mixes
+* Evaluation of costs for current and future energy systems
+* Analysis of the structure of the energy system cost
+* Hourly energy flows and exchanges analysis
+* Must-haves and must-avoids for decarbonization measures
 
 ## Solution Advantages ##
-Integrated: Considers all energy sectors (power, heating, cooling, transport, and industry) in an integrated approach.
-High resolution: Properly evaluates the intermittency of renewable energy sources.
-Transparent: Provides the Pareto front of optimal techno-economic solutions for policy makers.
-Must-have and must-avoids: Identifies common and missing elements of optimal scenarios.
-Demonstrated: Applied to various case studies at different scales and locations.
+* Integrated: Considers all energy sectors (power, heating, cooling, transport, and industry) in an integrated approach.
+* High resolution: Properly evaluates the intermittency of renewable energy sources.
+* Transparent: Provides the Pareto front of optimal techno-economic solutions for policy makers.
+* Must-have and must-avoids: Identifies common and missing elements of optimal scenarios.
+* Demonstrated: Applied to various case studies at different scales and locations.
 
 ## How to reproduce the example ##
 The example presented in this repository is based on the Scenario DK2020_2018edition_cost update.txt provided with the download of the EnergyPLAN software. This file is saved in the input_folder together its ANSI version. To produce the ANSI version needed by the code, you just need to follow these simple instructions: i) Open the DK2020_2018edition_cost update.txt file, ii) File, Save as..., iii) on the bottom change the encoding from Unicode to ANSI, iv) change the name of the file in order to remember that it is the ANSI version and click on Save. This is just to let you know the steps you have to go through if you want to change the EnergyPLAN input file. In the folder you can already find the ANSI version for the considered example: DK2020_2018edition_cost update_ANSI.txt
