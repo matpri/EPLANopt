@@ -56,5 +56,6 @@ To directly cite the code please refer to:
 
 ## Acknowledgements ##
 - Aalborg University for developing the EnergyPLAN software.
-- Eurac Research for coupling EnergyPLAN with a multi-objective evolutionary algorithm and applying the EPLANopt model to various case studies.
+
+
 For any questions or concerns, please visit our Eurac Research website https://www.eurac.edu/it/people/matteo-giacomo-prina.
