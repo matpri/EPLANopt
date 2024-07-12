@@ -1,5 +1,5 @@
 # EPLANopt #
-EPLANopt is a powerful energy system optimization model based on the EnergyPLAN software developed by Aalborg University. This model is specifically designed to inspect and identify the best future alternatives for the energy system by considering the challenges of the energy transition. This repository contains the EPLANopt model and its associated files. 
+EPLANopt is a energy system optimization model based on the EnergyPLAN software developed by Aalborg University. This model is specifically designed to inspect and identify the best future alternatives for the energy system by considering the challenges of the energy transition. This repository contains the EPLANopt model and its associated files. 
 ![](MAC.gif)
 
 ## Requirements ##
@@ -43,16 +43,13 @@ By running the MAC_plot.py file is possible to obtain the following plot (MAC.pn
 
 It needs to be mention that this example it's just to show the results that it is possible to obtain with this methodology. The results in the above graph are consequence of the costs implemented in DK2020_2018edition_cost update.txt that have not been modified or checked. 
 
-## How to cite EPLANoptMAC ##
-If you use **EPLANoptMAC** for your research, we would appreciate it if you would cite the following papers:
+## How to cite EPLANopt ##
+If you use **EPLANopt** for your research, we would appreciate it if you would cite the following papers:
 * Prina MG, Cozzini M, Garegnani G, Manzolini G, Moser D, Filippi Oberegger U, et al. Multi- objective optimization algorithm coupled to EnergyPLAN software: The EPLANopt model. Energy 2018;149:213–21. doi:10.1016/j.energy.2018.02.050. https://www.sciencedirect.com/science/article/pii/S0360544218302780
 * Prina MG, Manzolini G, Moser D, Vaccaro R, Sparber W. Multi-Objective Optimization Model EPLANopt for Energy Transition Analysis and Comparison with Climate-Change Scenarios. Energies 2020;13:3255. doi:10.3390/en13123255. https://www.mdpi.com/1996-1073/13/12/3255
 * Prina MG, Moser D, Vaccaro R, Sparber W. EPLANopt optimization model based on EnergyPLAN applied at regional level: the future competition on excess electricity production from renewables. Int J Sustain Energy Plan Manag 2020;27:35–50. doi:10.5278/ijsepm.3504. https://journals.aau.dk/index.php/sepm/article/view/3504
 * Groppi D, Nastasi B, Prina MG, Astiaso Garcia D. The EPLANopt model for Favignana island’s energy transition. Energy Convers Manag 2021;241:114295. doi:10.1016/j.enconman.2021.114295 https://www.sciencedirect.com/science/article/pii/S0196890421004714
 
-To directly cite the code please refer to:
-
-[![DOI](https://zenodo.org/badge/294351258.svg)](https://zenodo.org/badge/latestdoi/294351258)
 
 ## Acknowledgements ##
 - Aalborg University for developing the EnergyPLAN software.
