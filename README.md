@@ -29,16 +29,13 @@ EPLANopt is a energy system optimization model based on the EnergyPLAN software 
 The example presented in this repository is based on the Scenario DK2020_2018edition_cost update.txt provided with the download of the EnergyPLAN software. This file is saved in the input_folder together its ANSI version. To produce the ANSI version needed by the code, you just need to follow these simple instructions: i) Open the DK2020_2018edition_cost update.txt file, ii) File, Save as..., iii) on the bottom change the encoding from Unicode to ANSI, iv) change the name of the file in order to remember that it is the ANSI version and click on Save. This is just to let you know the steps you have to go through if you want to change the EnergyPLAN input file. In the folder you can already find the ANSI version for the considered example: DK2020_2018edition_cost update_ANSI.txt
 
 It is now possible to run the main.py file. in the libeplan.py file there are all the functions used to write input, execute EnergyPLAN and read output.
-Once the simulation is finished (consider a number of simulations of energyPLAN equal to **Number of decision variables x Number of steps**, each simulation of EnergyPLAN can take 1-10 seconds depending on your machine). 
 
 ## Results ##
-Once the simulation is finished the MAC.xlsx is produced. It has 4 sheets:
-a) **MAC**. This sheet contains the winning decision variables for each step and all the info to plot the MAC curve.
-b) **Cost effectiveness trends**. This sheet contains the values of the Cost effectiveness or Cost of CO2 Abatement (CCA) of each of the decision variables at each step. 
-c) **CO2 trends**. This sheet contains the potential abatement of the decision variables at each step.
-d) **Output trends**. This sheet contains the outputs of the solution implementing the winning decision variable. the outputs are defined in the Input.xlsx file and described in 3).
+Once the optimization is finished the history_csv.csv is created. It reports all the simulations done by the genetic algorithm (Multi-Objective Evolutionary Algorithm) and their objective function values. It is now time to run the Pareto.py script to find the Pareto Front of optimal solutions. Once this python file has been correctly executed, the output is the Pareto.xlsx file which has the following 2 sheets:
+a) **history**. This sheet contains all the simulated solutions and keep track of the process done by the genetic algorithm within the optimization process. 
+b) **Pareto**. This sheet contains the the optimal solutions on the Pareto front. it is what you should analyse in order to interpret the results 
 
-It needs to be mention that this example it's just to show the results that it is possible to obtain with this methodology. The results in the above graph are consequence of the costs implemented in DK2020_2018edition_cost update.txt that have not been modified or checked. 
+It needs to be mention that this example it's just to show the results that it is possible to obtain with this methodology. The results are consequence of the costs implemented in DK2020_2018edition_cost update.txt that have not been modified or checked. 
 
 ## How to cite EPLANopt ##
 If you use **EPLANopt** for your research, we would appreciate it if you would cite the following papers:
