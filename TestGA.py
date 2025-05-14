@@ -79,7 +79,7 @@ def f(individual):
         new_node.write_input()
         new_node.excute()
 #        print(new_node)
-        dic = new_node.read_output_y()
+        dic = new_node.read_All_outputs()
         c.append(1)
         print('a simulation executed, n = %d' %len(c))
         collection[name_ind] = dic #new_node
